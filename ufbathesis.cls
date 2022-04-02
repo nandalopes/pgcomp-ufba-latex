@@ -513,7 +513,7 @@ grau de \@degree\ em \@majorfield.}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \def\frontpage{%
-	\if@openright\cleardoublepage\else\clearpage\fi
+  \if@openright\cleardoublepage\else\clearpage\fi
   \thispagestyle{empty}
   \begin{center}
   \sf\large
@@ -538,7 +538,7 @@ grau de \@degree\ em \@majorfield.}
 }
 
 \def\pgcompfrontpage{%
-	\if@openright\cleardoublepage\else\clearpage\fi
+  \if@openright\cleardoublepage\else\clearpage\fi
   \thispagestyle{empty}
   \begin{center}
   
